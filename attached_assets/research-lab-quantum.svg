@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="quantumBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <radialGradient id="quantumCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00FFFF"/>
+      <stop offset="50%" style="stop-color:#0080FF"/>
+      <stop offset="100%" style="stop-color:#4169E1"/>
+    </radialGradient>
+    <filter id="quantumGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="url(#quantumBg)" rx="10"/>
+  
+  <!-- Main Lab Structure -->
+  <rect x="40" y="60" width="120" height="80" fill="#2C3E50" stroke="#34495E" stroke-width="2" rx="8"/>
+  
+  <!-- Quantum Core -->
+  <circle cx="100" cy="100" r="30" fill="url(#quantumCore)" filter="url(#quantumGlow)" opacity="0.8"/>
+  
+  <!-- Particle Accelerator Rings -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.6"/>
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#00BFFF" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Research Equipment -->
+  <rect x="60" y="40" width="15" height="20" fill="#3498DB" stroke="#2980B9" stroke-width="1" rx="3"/>
+  <rect x="125" y="40" width="15" height="20" fill="#3498DB" stroke="#2980B9" stroke-width="1" rx="3"/>
+  
+  <!-- Data Arrays -->
+  <rect x="20" y="80" width="12" height="40" fill="#F39C12" stroke="#E67E22" stroke-width="1" rx="2"/>
+  <rect x="168" y="80" width="12" height="40" fill="#F39C12" stroke="#E67E22" stroke-width="1" rx="2"/>
+  
+  <!-- Control Panels -->
+  <rect x="80" y="150" width="40" height="12" fill="#34495E" stroke="#2C3E50" stroke-width="1" rx="3"/>
+  
+  <!-- Energy Conduits -->
+  <line x1="70" y1="100" x2="130" y2="100" stroke="#00FFFF" stroke-width="3" filter="url(#quantumGlow)"/>
+  <line x1="100" y1="70" x2="100" y2="130" stroke="#00FFFF" stroke-width="3" filter="url(#quantumGlow)"/>
+  
+  <!-- Status Indicators -->
+  <circle cx="85" cy="155" r="3" fill="#2ECC71"/>
+  <circle cx="100" cy="155" r="3" fill="#F39C12"/>
+  <circle cx="115" cy="155" r="3" fill="#E74C3C"/>
+  
+  <!-- Research Progress -->
+  <rect x="60" y="170" width="80" height="8" fill="#34495E" stroke="#2C3E50" stroke-width="1" rx="4"/>
+  <rect x="62" y="172" width="52" height="4" fill="#2ECC71" rx="2"/>
+  
+  <text x="100" y="25" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">QUANTUM RESEARCH</text>
+  <text x="100" y="190" text-anchor="middle" fill="#CCCCCC" font-size="10">Progress: 65%</text>
+</svg>
