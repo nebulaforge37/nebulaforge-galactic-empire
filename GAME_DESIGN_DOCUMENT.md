@@ -1,4 +1,4 @@
-# Sci-Fi Conquest: Awakening - Game Design Document
+# Legions of Empires: Conquest Awakening - Game Design Document
 
 ## Table of Contents
 1. [Game Overview](#game-overview)
@@ -13,7 +13,7 @@
 ## Game Overview
 
 ### Vision Statement
-Sci-Fi Conquest: Awakening is a browser-based space strategy MMO that captures the depth and strategic complexity of classic 4X games while providing an accessible, modern gaming experience. Players command galactic civilizations, managing resources, conducting research, building fleets, and engaging in tactical combat across a persistent universe.
+Legions of Empires: Conquest Awakening is a browser-based space strategy MMO that captures the depth and strategic complexity of classic 4X games while providing an accessible, modern gaming experience. Players command galactic civilizations, managing resources, conducting research, building fleets, and engaging in tactical combat across a persistent universe.
 
 ### Genre
 Real-time Strategy (RTS) / 4X Strategy / Massively Multiplayer Online (MMO)
@@ -331,4 +331,4 @@ Fair and engaging competitive environment:
 
 ---
 
-*This document serves as the foundational design specification for Sci-Fi Conquest: Awakening. All systems and features described here are implemented or planned for future development releases.*
+*This document serves as the foundational design specification for Legions of Empires: Conquest Awakening. All systems and features described here are implemented or planned for future development releases.*

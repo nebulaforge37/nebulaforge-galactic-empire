@@ -1,16 +1,18 @@
-# NebulaForge - Galactic Empire Strategy Game
-
+# Legions of Empires: Conquest Awakening
+# Legions of Empires: Conquest Awakening v2.1.0 
 A cutting-edge space strategy game platform offering immersive, technologically advanced gameplay with comprehensive user experience design.
 
 ## 🚀 Features
 
 ### Core Game Systems
-- **Multi-Universe Gameplay** - Explore multiple universes with unique challenges
-- **Strategic Combat** - Command fleets in tactical space battles
-- **Alliance Warfare** - Form alliances and coordinate galactic campaigns
-- **Planetary Colonization** - Build and expand your cosmic empire
-- **Advanced AI Factions** - Dynamic AI opponents with unique behaviors
-- **Alien Companion System** - Recruit and manage alien allies
+- **Multi-Universe Gameplay** - Explore multiple universes with unique challenges ✅
+- **Strategic Combat** - Command fleets in tactical space battles ✅
+- **Alliance Warfare** - Form alliances and coordinate galactic campaigns ✅
+- **Planetary Colonization** - Build and expand your cosmic empire ✅
+- **Advanced AI Factions** - Dynamic AI opponents with unique behaviors ✅
+- **Alien Companion System** - Recruit and manage alien allies ✅
+- **Unit Production System** - Comprehensive military unit manufacturing ✅
+- **Resource Trading Marketplace** - Dynamic economic trading system ✅
 
 ### Advanced Mechanics
 - **Transcendent Systems** - Ascend to cosmic consciousness levels
@@ -164,7 +166,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email stephendeline37@gmail.com or join our Discord community.
+For support, email support@nebulaforge.com or join our Discord community.
 
 ## 🔗 Links
 

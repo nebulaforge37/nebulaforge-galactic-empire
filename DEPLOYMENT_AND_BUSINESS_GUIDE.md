@@ -104,7 +104,7 @@ cd nebulaforge-engine/mobile/android
 2. **Play Console Setup**
 ```yaml
 App Details:
-  Title: "NebulaForge: Galactic Empire"
+  Title: "Legions of Empires: Conquest Awakening"
   Short Description: "Epic space strategy MMO game"
   Full Description: |
     Join millions of players in the ultimate space strategy experience.

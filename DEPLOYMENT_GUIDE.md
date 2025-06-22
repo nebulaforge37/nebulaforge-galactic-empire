@@ -1,4 +1,4 @@
-# NebulaForge Deployment Guide
+# Legions of Empires: Conquest Awakening Deployment Guide
 
 **Version**: 2.1.0 "Advanced Galactic Empire"  
 **Build**: 2025.06.18  
