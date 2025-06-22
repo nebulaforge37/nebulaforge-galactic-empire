@@ -164,7 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@nebulaforge.com or join our Discord community.
+For support, email stephendeline37@gmail.com or join our Discord community.
 
 ## 🔗 Links
 
