@@ -1,0 +1,25 @@
+{
+  "name": "NebulaForge Game Engine",
+  "short_name": "NebulaForge",
+  "description": "Advanced space strategy game platform with AI-powered companion system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#6366f1",
+  "orientation": "landscape-primary",
+  "categories": ["games", "entertainment", "strategy"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

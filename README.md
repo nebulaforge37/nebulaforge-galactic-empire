@@ -1,180 +1,246 @@
-# Legions of Empires: Conquest Awakening
-# Legions of Empires: Conquest Awakening v2.1.0 
-A cutting-edge space strategy game platform offering immersive, technologically advanced gameplay with comprehensive user experience design.
+# NebulaForge Mobile
 
-## 🚀 Features
+**Advanced Space Strategy Game for iOS and Android**
 
-### Core Game Systems
-- **Multi-Universe Gameplay** - Explore multiple universes with unique challenges ✅
-- **Strategic Combat** - Command fleets in tactical space battles ✅
-- **Alliance Warfare** - Form alliances and coordinate galactic campaigns ✅
-- **Planetary Colonization** - Build and expand your cosmic empire ✅
-- **Advanced AI Factions** - Dynamic AI opponents with unique behaviors ✅
-- **Alien Companion System** - Recruit and manage alien allies ✅
-- **Unit Production System** - Comprehensive military unit manufacturing ✅
-- **Resource Trading Marketplace** - Dynamic economic trading system ✅
+[![Download APK](https://img.shields.io/badge/Download-Android%20APK-brightgreen)](https://nebulaforge-game.replit.app/mobile-dist/android/NebulaForge-mobile-20250618-0010.apk)
+[![Download IPA](https://img.shields.io/badge/Download-iOS%20IPA-blue)](https://nebulaforge-game.replit.app/mobile-dist/ios/NebulaForge-mobile-20250618-0010.ipa)
+[![Server Status](https://img.shields.io/badge/Server-Online-success)](https://nebulaforge-game.replit.app)
 
-### Advanced Mechanics
-- **Transcendent Systems** - Ascend to cosmic consciousness levels
-- **Kardashev Scale Progression** - Advance through civilization types
-- **Nemesis World System** - Face ultimate challenges and bosses
-- **Expedition & Dark Matter** - Explore deep space mysteries
-- **Blueprint & Crafting** - Create advanced technologies
-- **Achievement System** - 300+ achievements with dynamic storytelling
+## Overview
 
-### Business & Social Features
-- **Account Management** - Multi-empire slot system
-- **Billing Integration** - Premium subscriptions and features
-- **Social Hub** - Friends, guilds, and community features
-- **Administrative Panel** - Comprehensive 5-level permission system
-- **Real-time Communication** - In-game chat and diplomatic systems
+NebulaForge Mobile brings the complete space strategy gaming experience to your mobile device. Command fleets, manage colonies, conduct research, and engage in real-time multiplayer battles across the galaxy.
 
-## 🛠 Technology Stack
+### Key Features
 
-### Frontend
-- **React** with TypeScript
-- **Vite** for development and building
-- **Tailwind CSS** for styling
-- **shadcn/ui** component library
-- **TanStack Query** for state management
-- **Wouter** for routing
+- **Real-time Multiplayer**: Connect with players worldwide
+- **Fleet Command**: Deploy and manage space armadas
+- **Colony Management**: Build and expand planetary settlements  
+- **Research Laboratory**: Advance through technological trees
+- **Alliance System**: Form strategic partnerships
+- **AI Factions**: Dynamic computer-controlled civilizations
+- **Cross-platform**: Seamless gameplay between mobile and web
 
-### Backend
-- **Node.js** with Express
-- **PostgreSQL** database
-- **Drizzle ORM** for database operations
-- **WebSocket** for real-time features
-- **JWT** authentication
-- **Passport.js** for auth strategies
+## Download & Installation
 
-### Mobile
-- **React Native** with TypeScript
-- **Expo** development platform
-- Cross-platform iOS/Android support
+### Android (APK)
 
-## 📦 Installation
+**Requirements:**
+- Android 5.0 (API 21) or higher
+- ~50MB storage space
+- Internet connection for gameplay
 
-### Prerequisites
-- Node.js 20+
-- PostgreSQL database
-- Git
+**Installation Steps:**
 
-### Setup
-```bash
-# Clone the repository
-git clone https://github.com/nebulaforge37/nebulaforge-galactic-empire.git
-cd nebulaforge-galactic-empire
+1. **Enable Unknown Sources**
+   - Go to Settings → Security (or Privacy)
+   - Enable "Install from Unknown Sources" or "Unknown Sources"
+   - On newer Android: Settings → Apps → Special Access → Install Unknown Apps
 
-# Install dependencies
-npm install
+2. **Download APK**
+   - Click: [Download NebulaForge APK](https://nebulaforge-game.replit.app/mobile-dist/android/NebulaForge-mobile-20250618-0010.apk)
+   - Or scan QR code on the download page
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your database and API credentials
+3. **Install Application**
+   - Locate downloaded APK file (usually in Downloads folder)
+   - Tap the APK file to begin installation
+   - Grant necessary permissions when prompted
+   - Wait for installation to complete
 
-# Initialize database
-npm run db:push
+4. **Launch Game**
+   - Find "NebulaForge" in your app drawer
+   - Tap to launch and start your galactic empire
 
-# Start development server
-npm run dev
-```
+### iOS (IPA)
 
-### Environment Variables
-```env
-DATABASE_URL=postgresql://username:password@localhost:5432/nebulaforge
-OPENAI_API_KEY=your_openai_api_key
-SESSION_SECRET=your_session_secret
-GITHUB_TOKEN=your_github_token
-```
+**Requirements:**
+- iOS 12.0 or later
+- iPhone, iPad, or iPod touch
+- ~50MB storage space
+- Internet connection for gameplay
 
-## 🎮 Getting Started
+**Installation Methods:**
 
-1. **Create Account** - Register a new galactic empire
-2. **Choose Universe** - Select your starting realm
-3. **Build Infrastructure** - Construct buildings and facilities
-4. **Research Technologies** - Advance through the knowledge tree
-5. **Expand Territory** - Colonize new planets and systems
-6. **Form Alliances** - Join or create diplomatic relationships
-7. **Engage in Combat** - Command fleets in strategic battles
+#### Option A: TestFlight (Recommended)
+1. Install TestFlight from the App Store
+2. Contact administrator for beta invitation
+3. Open invitation link in TestFlight
+4. Install NebulaForge through TestFlight
 
-## 🏗 Project Structure
+#### Option B: Apple Configurator (Advanced Users)
+1. Download [NebulaForge IPA](https://nebulaforge-game.replit.app/mobile-dist/ios/NebulaForge-mobile-20250618-0010.ipa)
+2. Install Apple Configurator on your Mac
+3. Connect your iOS device via USB
+4. Drag IPA file into Apple Configurator
+5. Follow on-screen installation prompts
 
-```
-├── client/                 # Frontend React application
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Application pages
-│   │   ├── hooks/          # Custom React hooks
-│   │   └── lib/            # Utilities and configurations
-├── server/                 # Backend Node.js application
-│   ├── routes/             # API route handlers
-│   ├── init-*/             # System initialization modules
-│   └── *.ts                # Core server modules
-├── shared/                 # Shared types and schemas
-├── mobile/                 # React Native mobile app
-└── docs/                   # Documentation files
-```
+#### Option C: Enterprise Distribution
+- Contact administrator for enterprise distribution access
+- Device UDID must be registered for installation
 
-## 🚀 Deployment
+## Getting Started
 
-The application is designed for deployment on Replit with automatic scaling and management.
+### First Launch
 
-### Production Build
-```bash
-npm run build
-npm start
-```
+1. **Create Account**
+   - Open NebulaForge mobile app
+   - Tap "Create Account" or "Register"
+   - Enter username and password
+   - No email verification required for testing
 
-### Database Migration
-```bash
-npm run db:push
-```
+2. **Server Connection**
+   - App automatically connects to: `nebulaforge-game.replit.app`
+   - Green indicator shows successful connection
+   - Red indicator means server connectivity issues
 
-## 🤝 Contributing
+3. **Game Interface**
+   - **Overview Tab**: Empire summary and resources
+   - **Fleet Tab**: Manage space fleets and expeditions
+   - **Planets Tab**: Colony management and construction
+   - **Research Tab**: Technology advancement
+   - **Alliance Tab**: Diplomatic relations
+   - **Settings Tab**: App preferences and account
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### Basic Gameplay
 
-## 📄 License
+**Resource Management:**
+- Metal, Crystal, and Deuterium are core resources
+- Build mines and extractors on colonies
+- Resources generate automatically over time
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Fleet Operations:**
+- Deploy fleets from the Fleet Command screen
+- Set destinations and mission types
+- Monitor fleet status and arrival times
 
-## 🌟 Key Features Detail
+**Research Progression:**
+- Select technologies in Research Lab
+- Higher levels unlock advanced capabilities
+- Research requires time and resources
 
-### Administrative System
-- 5-level permission system (Root, Senior, Junior, Moderator, Observer)
-- Comprehensive audit logging
-- Real-time monitoring and maintenance tools
-- Advanced configuration management
+**Alliance System:**
+- Join or create alliances
+- Coordinate with other players
+- Share resources and military support
 
-### Game Systems
-- **Combat Engine** - Turn-based tactical combat with 150+ weapons
-- **Research System** - Complex technology trees and dependencies
-- **Economic System** - Resource management and trade mechanics
-- **Diplomatic System** - Advanced relationship management
-- **Story Mode** - AI-generated narrative experiences
+## Technical Specifications
 
-### Performance Features
-- Real-time synchronization
-- Optimized database queries
-- Scalable architecture
-- Mobile-responsive design
-- Cross-platform compatibility
+### Android Details
+- **Package Name**: `com.nebulaforge.mobile`
+- **Min SDK**: 21 (Android 5.0)
+- **Target SDK**: 34 (Android 14)
+- **Architecture**: ARM64, ARMv7, x86, x86_64
+- **Permissions**: Internet, Network State, Wake Lock
 
-## 📞 Support
+### iOS Details
+- **Bundle ID**: `com.nebulaforge.mobile`
+- **Deployment Target**: iOS 12.0
+- **Device Support**: iPhone, iPad (Universal)
+- **Orientation**: Landscape optimized
+- **Architecture**: ARM64, x86_64 (Simulator)
 
-For support, email support@nebulaforge.com or join our Discord community.
+### Network Requirements
+- **Game Server**: `https://nebulaforge-game.replit.app`
+- **WebSocket**: `wss://nebulaforge-game.replit.app`
+- **Protocol**: HTTPS/WSS (encrypted)
+- **Ports**: 443 (standard HTTPS/WSS)
 
-## 🔗 Links
+## Troubleshooting
 
-- [Documentation](./DOCUMENTATION.md)
-- [API Reference](./API_DOCUMENTATION.md)
-- [Development Guide](./DEVELOPMENT_ROADMAP.md)
-- [Game Design Document](./GAME_DESIGN_DOCUMENT.md)
+### Common Issues
+
+**Android Installation Blocked:**
+- Ensure "Unknown Sources" is enabled
+- Check available storage space (minimum 100MB)
+- Restart device if installation fails
+
+**iOS Installation Failed:**
+- Verify device UDID is registered
+- Check iOS version compatibility (12.0+)
+- Use TestFlight for easier installation
+
+**Connection Problems:**
+- Check internet connectivity
+- Verify firewall allows HTTPS/WSS traffic
+- Server status: [nebulaforge-game.replit.app](https://nebulaforge-game.replit.app)
+
+**App Crashes:**
+- Force close and restart application
+- Clear app cache (Android)
+- Reinstall if problems persist
+
+**Login Issues:**
+- Create new account if needed
+- Any username/password combination works for testing
+- Contact support if authentication fails
+
+### Performance Optimization
+
+**For Best Experience:**
+- Close other applications while playing
+- Connect to stable WiFi network
+- Keep device charged (game is network intensive)
+- Use landscape orientation for optimal UI
+
+**Battery Saving:**
+- Enable power saving mode if needed
+- Reduce screen brightness
+- Close app when not actively playing
+
+## Support & Feedback
+
+### Getting Help
+- **Server Issues**: Check server status page
+- **Technical Problems**: Restart app and device
+- **Gameplay Questions**: Refer to in-game help
+- **Bug Reports**: Contact development team
+
+### Beta Testing Notice
+This is a test version with the following characteristics:
+- Debug features enabled for testing
+- Performance may vary from final release
+- Regular updates and improvements
+- Feedback welcome for game enhancement
+
+### Game Server Status
+- **Live Server**: Online 24/7
+- **Real-time Features**: Active
+- **AI Factions**: 8 active civilizations
+- **Military Systems**: Full combat simulation
+- **Multiplayer**: Cross-platform support
+
+### Version Information
+- **Build Date**: June 18, 2025
+- **Version**: 1.0.0-test-20250618-0010
+- **Platform**: React Native
+- **Server**: Node.js + PostgreSQL
+
+## Advanced Features
+
+### Real-time Capabilities
+- Live resource updates
+- Fleet movement tracking
+- Battle notifications
+- Alliance communications
+- Market price changes
+
+### AI Faction System
+- Dynamic computer opponents
+- Diplomatic interactions
+- Trade opportunities
+- Military conflicts
+- Territory expansion
+
+### Cross-platform Play
+- Same account works on web and mobile
+- Synchronized game state
+- Seamless switching between devices
+- Real-time updates across platforms
 
 ---
 
-Built with ❤️ by the NebulaForge Development Team
+**Download Now:**
+- [Android APK](https://nebulaforge-game.replit.app/mobile-dist/android/NebulaForge-mobile-20250618-0010.apk) (12KB)
+- [iOS IPA](https://nebulaforge-game.replit.app/mobile-dist/ios/NebulaForge-mobile-20250618-0010.ipa) (4KB)
+- [Web Version](https://nebulaforge-game.replit.app)
+
+**Ready to command your galactic empire? Download NebulaForge Mobile today!**
